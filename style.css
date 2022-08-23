@@ -8,7 +8,7 @@
 	padding:100px;
 	text-align:center;  
 	background:url(images/bg.jpg);
-	background-size:100% 100%;
+	background-size:30% 30%;
 }
 
 #logo
@@ -27,6 +27,7 @@
 
 #submit-button
 {
+	color: #000;
 	width:200px;
 	height:50px;
 	font-weight:bold;
@@ -116,7 +117,7 @@ label
 {
 	padding:20px;
 	font-size:45px;
-	color:antiquewhite;
+	color:rgb(228, 93, 93);
 }
 
 #lives-left
@@ -139,10 +140,11 @@ label
 
 #the-word-was-div
 {
-	color:darkred;
+	color:rgb(106, 71, 134);
 	font-size:30px;
 	margin-top:40px;;
 	text-align:center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #play-again-div
@@ -173,7 +175,7 @@ label
 #credits a
 {
 	text-decoration:none;
-	color:rgb(255, 255, 255);
+	color:rgb(109, 70, 161);
 }
 
 @media all and (max-width:500px)
