@@ -27,11 +27,13 @@
 
 #submit-button
 {
-	color: #000;
+	color: rgb(235, 15, 180);
 	width:200px;
 	height:50px;
 	font-weight:bold;
 	margin:20px 0px;
+	border-radius: 65%;
+	border-color: blueviolet;
 }
 
 label
@@ -48,7 +50,7 @@ label
 #credits a
 {
 	text-decoration:none;
-	color:purple;
+	color:rgb(0, 0, 0);
 }
 
 
@@ -76,8 +78,8 @@ label
 
 .letter:hover
 {
-	background:rgb(84, 52, 99);
-	border:1px solid rgb(5, 5, 5);
+	background:rgb(164, 103, 192);
+	border:0px solid rgb(5, 5, 5);
 }
 
 .clear
@@ -87,10 +89,10 @@ label
 
 #hangman-div2
 {
-	max-width:1100px;
-	margin:8 auto;
+	max-width:1000px;
+	margin: 75px; auto;
 	background:url(imagenes/bg.jpg);
-	padding: 33;
+	padding: 30;
 }
 
 #hangman-div2 > div:nth-child(1)
@@ -140,7 +142,7 @@ label
 
 #the-word-was-div
 {
-	color:rgb(106, 71, 134);
+	color:rgb(87, 70, 102);
 	font-size:30px;
 	margin-top:40px;;
 	text-align:center;
